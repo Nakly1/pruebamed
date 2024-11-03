@@ -1,0 +1,120 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background 0.5s;
+  }
+  
+  /* Fondo para cada conjunto de preguntas */
+  body.bg1 {
+    background: url('https://img.freepik.com/vector-gratis/fondo-dibujado-mano-dia-nacional-medico_23-2149438164.jpg?t=st=1730677479~exp=1730681079~hmac=4ac5be0df058258712ebea53ff0b5298d82ea9e06a1c82a57dd72e9490d194c9&w=1060') no-repeat center center fixed;
+    background-size: cover;
+  }
+  body.bg2 {
+    background: url('https://img.freepik.com/vector-gratis/antecedentes-medicos-limpios_53876-97927.jpg?t=st=1730677709~exp=1730681309~hmac=da1cc14c85a1f466a28d1e53c05177274357cf461a868dacb45a2cf8bbc8f57d&w=1060') no-repeat center center fixed;
+    background-size: cover;
+  }
+  body.bg3 {
+    background: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190617/ourmid/pngtree-taobao-cartoon-vector-medical-hospital-ambulance-needle-love-poster-image_128832.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  body.bg4 {
+    background: url('https://img.freepik.com/vector-gratis/antecedentes-medicos-acuarela_52683-161600.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  body.bg5 {
+    background: url('https://img.freepik.com/vetores-gratis/antecedentes-medicos-de-aquarela_23-2151342775.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  /* Contenedor de la pregunta */
+  .question-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #555;
+    font-size: 1.2em;
+  }
+  
+  /* Opciones de respuesta */
+  .options-container {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+  }
+  
+  .option:hover {
+    background-color: #e0f7fa;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  /* Botones */
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+  }
+  
+  #back-button {
+    background-color: #ffb74d;
+    color: #fff;
+  }
+  
+  #back-button:hover {
+    background-color: #ff9800;
+  }
+  
+  #submit-button {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  #submit-button:hover {
+    background-color: #388e3c;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
